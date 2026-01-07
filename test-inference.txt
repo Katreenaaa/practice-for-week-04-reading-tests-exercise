@@ -1,0 +1,54 @@
+** Test: isFive(num) **
+
+- This test checks whether the isFive function correctly determines 
+  if a given input is the number 5.
+
+- If the input is the number 5, the function should return true.
+
+- If the input is any other value (including other numbers or non-number types like strings), 
+  the function should return false.
+
+- The test verifies this by checking:
+  - A valid case where the input is 5
+  - Invalid cases where the input is 4 and a string value
+
+
+** Test: isOdd(number) **
+
+- This test checks whether the isOdd function correctly identifies odd numbers.
+
+- The function should return true when the input is an odd number 
+  (including negative odd numbers).
+
+- The function should return false when the input is an even number 
+  (including negative even numbers).
+
+- If the input is not of type Number (such as a string, object, or array), 
+  the function should throw an Error.
+
+- The test confirms correct behavior using positive numbers, negative numbers, and invalid data types.
+
+
+** Test: myRange(min, max, step) **
+
+- This test checks whether the myRange function correctly 
+  generates an array of numbers within a specified range.
+
+- When step is not provided:
+
+  - The function should default step to 1.
+
+  - It should return an array starting from min and ending at max (inclusive).
+
+  - If min is greater than max, the function should return an empty array.
+
+- When step is provided:
+
+  - The function should increment values by the given step.
+
+  - Values should not exceed max.
+
+  - If min is greater than max, the function should return an empty array.
+
+  - The tests confirm that the function behaves correctly for normal ranges, 
+    stepped ranges, and invalid ranges.
